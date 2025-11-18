@@ -13,7 +13,7 @@ export const SignOutButton = () => {
     } catch (err) {
       // See https://clerk.com/docs/custom-flows/error-handling
       // for more info on error handling
-      console.error(JSON.stringify(err, null, 2))
+      console.log("Clerk error:", err);
     }
   }
   return (
