@@ -13,6 +13,9 @@ const CATEGORY_ICONS = {
   Medicine: "medkit",
   Bills: "receipt",
   Income: "cash",
+  Groceries: "basket",
+  Repairs: "construct",
+  "Savings & Investments": "trending-up",
   Other: "ellipsis-horizontal",
 };
 
